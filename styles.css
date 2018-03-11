@@ -1,7 +1,18 @@
 body{
-  background-color: #696969;
+  /* Raisin Black */
+  background-color: #1e1e24;
+  /* White Smoke text */
+  color: #fbf5f3;
+  font-size: 1.5em;
+  /* border Sunset Orange */
+  border: #ff5e5b solid 2px;
 }
 
 .basestyle {
-  background-color: #f79f79;
+/* Dim Gray */
+    background-color: #696969;
+}
+.project{
+  /* Dark Midnight Blue */
+  background-color: #043565;
 }
