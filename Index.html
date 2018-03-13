@@ -30,60 +30,103 @@
     </ul>
   </div>
 </nav>
-<div class='container container-fluid' >
-  <div class='basestyle landing' >
-    <p>landing here</p>
+<div class='container ' >
+  <div class='landing' >
+    <!-- <p>landing here</p> -->
   </div>
-    <div id='about' class='basestyle about' >
+    <div id='about' class='about' >
       <h1>About Me!</h1>
       <p class='bio'>Hello, my name is Christine and I'm an aspiring Full-Stack Javascript Developer in Toronto, Canada.
-        My backgound is in Electro-Mechanical Engineering Technology with an emphasis on Automation and Robotics. Though working as a Controls designer and Technical support,
+        My backgound is in Electro-Mechanical Engineering Technology with an emphasis on Automation and Robotics. Though working as a Controls Designer/Programmer and Technical Support,
         I discovered a passion and affinity for programming and realizd this was something I had to do as a career. <br> <br>
-        I started my journey with <a href="https://www.freecodecamp.org/christine-aqui">freecodecamp</a>, some top udemy courses and coding meetups. To accelarate my learning and master the fundamentals I am attending at <a href="https://bootcamp.learn.utoronto.ca/">Full-Stack Bootcamp @ UofT</a>.
+        I started my journey with <a href="https://www.freecodecamp.org/christine-aqui">freecodecamp</a>, took some top udemy courses and attended local coding meetups. To accelarate my learning and master the fundamentals I am attending at <a href="https://bootcamp.learn.utoronto.ca/">Full-Stack Bootcamp @ UofT</a>.
         I am very interested in software development, computer science, machine learning and IoT.
       </p>
     </div>
-    <div id='skills' class='basestyle skills' >
+    <div id='skills'  >
       <h1>Skills!</h1>
       <p> I currently using following the langauges and technologies:</p>
-      <div>
-        <i class="fab fa-css3-alt fa-3x"></i>
-        <i class="fab fa-html5 fa-3x"></i>
-        <i class="fab fa-js fa-3x"></i>
-        <i class="fab fa-react fa-3x"></i>
-        <!-- <i class="fab fa-node-js fa-3x"></i> -->
-        <!-- <i class="fab fa-python fa-3x"></i> -->
-        <i class="fab fa-git fa-3x"></i>
-        <i class="fab fa-github fa-3x"></i>
-        <i class="fab fa-gulp fa-3x"></i>
-
-        <i class="fab fa-npm fa-3x"></i>
-
+      <div class='d-flex p-2 justify-content-center skills'>
+        <i class="fab fa-css3-alt fa-3x p-3"></i>
+        <i class="fab fa-html5 fa-3x p-3"></i>
+        <i class="fab fa-js fa-3x p-3"></i>
+        <i class="fab fa-react fa-3x p-3"></i>
+        <!-- <i class="fab fa-node-js fa-3x p-3"></i> -->
+        <!-- <i class="fab fa-python fa-3x p-3"></i> -->
+        <i class="fab fa-git fa-3x p-3"></i>
+        <i class="fab fa-github fa-3x p-3"></i>
+        <i class="fab fa-gulp fa-3x p-3"></i>
+        <i class="fab fa-npm fa-3x p-3"></i>
       </div>
+    </div>
+    <div  id='myProject' class='projects' >
+
+      <div class="panel-group" id="accordion" >
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                <i class="fas fa-chess-pawn"></i> Active Projects</a>
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse in">
+            <div class="panel-body">
+              <p><strong>Weather-Music App</strong> The idea behind this app is to suggest spotify playlist according to the weather.
+                Later on I would like to also as features to set a mood and try and much songs by both weather and mood.</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                <i class="fas fa-chess-knight"></i> Completed Projects</a>
+            </h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p><strong>Portfolio</strong> Took my codepen portfolio I made when doing freecode camp and updated the content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                <i class="fas fa-chess-rook"></i> Open Source</a>
+            </h4>
+          </div>
+          <div id="collapse3" class="panel-collapse collapse">
+            <div class="panel-body">
+              <!-- content here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- contact section -->
+    <div id='contc' class=' contact' >
+      <h4><i class="far fa-envelope"></i> Contact Me!</h4>
+      <Form>
+
+      </Form>
+      <i class="fab fa-free-code-camp"></i>
+      <i class="fab fa-github-alt"></i>
+      <i class="fas fa-graduation-cap"></i>
+      <i class="fab fa-linkedin"></i>
+
 
     </div>
-    <div id='myProject' class='basestyle projects' >
-      <div class='basestyle project active'>
-        <p>active projects</p>
-      </div>
-      <div class='basestyle project completed'>
-        <p>completed projects</p>
-      </div>
-      <div class='basestyle project brainstorm'>
-        <p>brainstorm projects</p>
-      </div>
-      <p>current projects</p>
-    </div>
-    <div class='basestyle fun-fact' >
-      <p>fun facts</p>
-    </div>
-    <div id='contc' class='basestyle contact' >
-      <p>contact me</p>
-    </div>
-
+<!--  need a footer -->
   </div>
   <script src="./script.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"></script>
 </body>
 </html>
