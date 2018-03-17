@@ -12,6 +12,9 @@ h1{
   padding: 10px;
   text-align: center;
 }
+h2{
+  text-align: center;
+}
 .contactForm{
   width: 60%;
   max-width: 500px
