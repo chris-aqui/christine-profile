@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "devDependencies": {
-    "browser-sync": "^2.18.13",
+    "browser-sync": "^2.29.1",
     "run-script-os": "^1.0.3"
   },
   "scripts": {
